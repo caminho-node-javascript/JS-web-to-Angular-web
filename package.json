@@ -4,8 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-doc": "ng serve --baseHref=/JS-web-to-Angular-web/",
     "build": "ng build",
     "build-prod": "ng build --prod",
+    "doc":"ng build --output-path docs --base-href /JS-web-to-Angular-web/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
